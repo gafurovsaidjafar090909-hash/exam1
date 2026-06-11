@@ -45,13 +45,55 @@ font-size: 15px;
 width: 50%;
 
 }
+.d9
+{
+    border-radius: 10px;
+    width: 35%;
+    height: 200px;
+    background-color: white;
+    box-shadow: 2px 2px 12px black;
+}
+.d8
+{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 60px;
+}
+.d10
+{
+    margin-top: 10px;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
 @media (max-width: 1024px) and (min-width: 768px) 
 {
+    .d9
+    {
+        width: 40%;
+    }
+    .d9
+    h1{
+        margin-left: 20px;
+       font-size: 20px;
+    }
     .d5
     {
         margin-left: 40px;
         margin-right: 40px;
     }
+    .d10
+{
+    margin-top: 10px;
+    display: flex;
+    gap:30px;
+    align-items: center;
+    justify-content: center;
+}
   
 }
 
@@ -94,6 +136,18 @@ h1{
  
  width: 100%;
 }
+.d8
+{
+    flex-direction: column;
+   width:100%;
+   margin-left: 5%;
+}
+.d9
+{
+    width: 90%;
+    height: 250px;
+}
+ 
 
 
 }
