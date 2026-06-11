@@ -176,6 +176,17 @@ width: 50%;
     gap: 30px;
     justify-content: center;
 }
+.su
+{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.s10
+{
+    width: 40%;
+
+}
 
 
  
@@ -283,6 +294,15 @@ p{
         text-align: center;
     padding-top: 20px;
 
+}
+.s10
+{
+    width: 65%;
+    text-align: center;
+}
+.su
+{
+    flex-direction: column-reverse;
 }
 
 
@@ -404,6 +424,17 @@ h1{
 .bu2
 {
    flex-wrap: wrap;
+}
+.s10
+{
+    width: 65%;
+    text-align: center;
+}
+.su
+
+{
+    margin-top: 50px;
+    flex-direction: column-reverse;
 }
 
 
