@@ -94,13 +94,14 @@ width: 50%;
 }
 .s3
 {
-    height: 400px;
+    height: 450px;
     width: 40%;
     background-color: white;
     box-shadow: 2px 2px 8px black;
     border-radius: 10px;
     
 }
+
 .s4
 {
     height: 50px;
@@ -128,6 +129,25 @@ width: 50%;
 .s2
 {
     width: 40%;
+}
+.bxu
+{
+    flex-direction: column;
+    width: 90%;
+   
+}
+.s5
+
+{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.bx1
+{
+    height: 100px;
+    width: 33%;
 }
 
  
@@ -201,6 +221,16 @@ p{
 {
     flex-direction: column;
 }
+.s5
+{
+    flex-direction: column;
+}
+.bx1
+{
+    width: 90%;
+    margin: auto;
+}
+
 
   
 }
@@ -281,6 +311,15 @@ h1{
 .s1
 {
     flex-direction: column;
+}
+.s5
+{
+    flex-direction: column;
+}
+.bx1
+{
+    width: 90%;
+    margin: auto;
 }
 
 
